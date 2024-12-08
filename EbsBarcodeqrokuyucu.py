@@ -1,9 +1,10 @@
 import sys
 from pyzbar.pyzbar import decode
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QFileDialog, QLineEdit
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QFileDialog, QLineEdit
+from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtCore import Qt
 from PIL import Image
+
 
 class EBSBarkodOkuyucu(QWidget):
     def __init__(self):
@@ -15,7 +16,8 @@ class EBSBarkodOkuyucu(QWidget):
 
         self.setWindowTitle('EBS Barkod Okuyucu')
 
-        # Modern bir gradyan arka plan rengi
+        self.setWindowIcon(QIcon('ebs.png')) 
+        
         self.setStyleSheet("""
             background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(85, 182, 224, 255), stop:1 rgba(0, 120, 255, 255));
             font-family: Arial, sans-serif;
