@@ -13,6 +13,7 @@ EBS Barkod Okuyucu, QR kodları ve barkodları kolayca okuyabilen bir masaüstü
 
 ![EBS Barkod Okuyucu](ebs11.png)
 ![EBS Barkod Okuyucu](ebs12.png)
+![EBS Barkod Okuyucu](ebs.png)
 
 ## Gereksinimler
 
