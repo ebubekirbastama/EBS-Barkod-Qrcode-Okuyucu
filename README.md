@@ -9,6 +9,10 @@ EBS Barkod Okuyucu, QR kodları ve barkodları kolayca okuyabilen bir masaüstü
 - Resim dosyası seçme veya URL/dosya yolu ile barkod okuma.
 - Barkod verisinin ekran üzerinde gösterilmesi.
 
+## Uygulama arayüzü:
+
+![EBS Barkod Okuyucu](ebs11.png)
+![EBS Barkod Okuyucu](ebs12.png)
 
 ## Gereksinimler
 
