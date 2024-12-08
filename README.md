@@ -1,0 +1,1 @@
+# EBS-Barkod-Qrcode-Okuyucu
